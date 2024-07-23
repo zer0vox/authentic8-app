@@ -1,0 +1,37 @@
+/* Dashboard container styling */
+.dashboard-container {
+  max-width: 600px; /* Maximum width for the dashboard container */
+  padding: 20px; /* Add padding inside the container */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Custom button styling */
+.btn-teal {
+  background-color: #00796b; /* Teal background */
+  color: white;
+  border: none; /* Remove default border */
+}
+
+.btn-teal:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+.btn-outline-teal {
+  border-color: #00796b; /* Teal border */
+  color: #00796b; /* Teal text */
+}
+
+.btn-outline-teal:hover {
+  background-color: #00796b; /* Teal background on hover */
+  color: white; /* White text on hover */
+}
+
+/* Text color for Card Title */
+.text-teal-800 {
+  color: #004d40; /* Dark teal color */
+}
+
+/* Ensure the ButtonGroup takes full width */
+.w-100 {
+  width: 100%;
+}

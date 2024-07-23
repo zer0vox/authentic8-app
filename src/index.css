@@ -1,13 +1,50 @@
+/* Body Styling */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #e0f2f1; /* Light teal background */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Login Container Styling */
+.login-container {
+  max-width: 400px;
+  margin: 5% auto; /* Centered with a margin */
+  padding: 30px;
+  background-color: #ffffff; /* White background for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  border-radius: 10px; /* Slightly larger border radius */
+}
+
+/* Login Title Styling */
+.login-title {
+  margin-bottom: 20px;
+  font-size: 1.75rem; /* Larger font size */
+  text-align: center;
+  color: #004d40; /* Dark teal for the title */
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+/* Custom Button Styling */
+.btn-custom {
+  background-color: #00796b; /* Teal color */
+  color: white;
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.btn-custom:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+.btn-outline-teal:hover {
+  background-color: #00796b; /* Teal background on hover */
+  color: white; /* White text on hover */
+}
+
+/* Text color for Card Title */
+.text-teal-800 {
+  color: #004d40; /* Dark teal color */
+}
+
+/* Ensure the ButtonGroup takes full width */
+.w-100 {
+  width: 100%;
 }

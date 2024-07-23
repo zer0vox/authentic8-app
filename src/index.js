@@ -1,17 +1,29 @@
+
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
+import Login from './pages/Login';
+import AdminDashboard from './pages/AdminDashboard';
+import ManufacturerDashboard from './pages/ManufacturerDashboard';
+import DistributorDashboard from './pages/DistributorDashboard';
+import RetailerDashboard from './pages/RetailerDashboard';
+import ConsumerPage from './pages/ConsumerPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'; // Import your custom CSS
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <Router>
+    <Container>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/manufacturer" element={<ManufacturerDashboard />} />
+        <Route path="/distributor" element={<DistributorDashboard />} />
+        <Route path="/retailer" element={<RetailerDashboard />} />
+        <Route path="/consumer" element={<ConsumerPage />} />
+      </Routes>
+    </Container>
+  </Router>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

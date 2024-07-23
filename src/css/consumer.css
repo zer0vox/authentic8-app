@@ -1,0 +1,54 @@
+/* Container styling */
+.container {
+  padding: 30px;
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Title styling */
+.container h1 {
+  margin-bottom: 30px;
+  font-size: 2rem; /* Larger font size for the title */
+  color: #004d40; /* Dark teal color */
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #00796b; /* Teal border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  margin-bottom: 20px; /* Space between cards */
+}
+
+.card-img-top {
+  border-top-left-radius: 10px; /* Rounded corners for the top image */
+  border-top-right-radius: 10px; /* Rounded corners for the top image */
+}
+
+.card-body {
+  padding: 15px; /* Padding inside the card body */
+}
+
+.card-title {
+  color: #004d40; /* Dark teal color for the title */
+  font-size: 1.25rem; /* Larger font size for the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.card-text {
+  color: #333; /* Darker text color for readability */
+  font-size: 1rem; /* Standard font size for text */
+}
+
+/* Responsive design */
+@media (max-width: 767.98px) {
+  .container {
+    padding: 15px; /* Less padding on small screens */
+  }
+
+  .card {
+    margin-bottom: 15px; /* Less space between cards on small screens */
+  }
+}

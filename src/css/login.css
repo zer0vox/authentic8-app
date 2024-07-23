@@ -1,0 +1,31 @@
+/* Container for the login form */
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .login-title {
+    font-size: 1.75rem; /* Adjusted font size */
+    color: #004d40; /* Dark teal color */
+  }
+  
+  /* Custom button styling */
+  .btn-custom {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border: none; /* Remove default border */
+  }
+  
+  .btn-custom:hover {
+    background-color: #004d40; /* Darker teal on hover */
+  }
+  
+  .btn-custom:focus, .btn-custom:active {
+    box-shadow: none; /* Remove default focus and active shadow */
+  }
+  
